@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.general {
+    margin: auto;
+    padding: auto;
+    width: auto;
+    display: table;
+    height: 100px;
+    float: left;
+}
