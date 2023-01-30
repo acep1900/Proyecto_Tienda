@@ -9,4 +9,15 @@
     display: table;
     height: 100px;
     float: left;
+    border-style: dotted
+ 
+}
+.contenedor_1 {
+    margin: auto;
+    padding: auto;
+    width: auto;
+    display: table;
+    height: 100px;
+    float: left;
+    border-style: dotted
 }
