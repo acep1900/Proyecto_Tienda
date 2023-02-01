@@ -16,7 +16,8 @@
                 <h1>StarProct </h1>
                 <img src="Image/star.jpg" alt="HTML5 Icon" style="float:left;width:auto;height:75px;">
         </div>
-        <div class="icon-bar">
+
+        <div class="icon-bar"><!--desde aqui es la barra horizontal (home, gloe.menu)-->
             <a class="active" href="#"><i class="fa fa-home"></i></a> 
             <a href="#"><i class="fa fa-search"></i></a> 
             <a href="#"><i class="fa fa-envelope"></i></a> 
@@ -25,11 +26,50 @@
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
-              </div> </a> 
-                  
-            </div>
-                          
-        </div>
+              </div> </a>    
+            </div><!--hasta aqui-->
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+       <img src="Image/dron.jpg" style="width:20%">
+      <div class="text">
+        <h2>Drones</h2></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="Image/computador.jpg" style="width:20%">
+      <div class="text">
+        <h2>Televisores</h2></div>
+      </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="Image/televisor.jpg" style="width:20%">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="Image/estufa.jpg" style="width:20%">
+        <div class="text">Caption Three</div>
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
        
 
         <script src="Funcion.js"></script>
